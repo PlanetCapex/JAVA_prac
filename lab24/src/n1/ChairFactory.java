@@ -4,7 +4,7 @@ public class ChairFactory implements AbstractChairFactory {
 
     @Override
     public VictorianChair createVictorianChair() {
-        return new VictorianChair(1857);
+        return new VictorianChair(1227);
     }
 
     @Override

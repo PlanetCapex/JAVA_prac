@@ -8,11 +8,11 @@ public class ArrayQueueTest {
         queue.display();
         queue.enqueue(20);
         queue.enqueue(10);
-        queue.enqueue(100);
-        queue.enqueue(13);
+        queue.enqueue(10);
+        queue.enqueue(23);
         queue.enqueue(42);
-        queue.enqueue(21);
-        queue.enqueue(11);
+        queue.enqueue(71);
+        queue.enqueue(91);
         queue.enqueue(0);
         queue.display();
         System.out.println("Первый элемент в очереде: " + queue.element());

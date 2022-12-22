@@ -8,7 +8,7 @@ public class Main {
         FunctionalChair functionalChair = chairFactory.createFunctionalChair();
         MagicChair magicChair = chairFactory.createMagicChair();
         magicChair.doMagic();
-        System.out.println( functionalChair.sum(1,2));
+        System.out.println( functionalChair.sum(3,2));
         System.out.println(victorianChair.getAge());
         Client client = new Client();
         client.sit();

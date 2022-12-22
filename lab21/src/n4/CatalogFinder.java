@@ -21,6 +21,6 @@ public class CatalogFinder {
     }
 
     public static void main(String[] args) throws Exception {
-        fillByCatalog("/Users/petr/Documents/");
+        fillByCatalog("C:");
     }
 }
